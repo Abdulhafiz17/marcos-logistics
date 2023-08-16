@@ -22,5 +22,10 @@ export default createRouter({
       name: "not-found",
       component: () => import("../views/NotFound/NotFound.vue"),
     },
+    {
+      path: "/",
+      name: "home",
+      component: () => import("../views/Home/Home.vue"),
+    },
   ],
 });
