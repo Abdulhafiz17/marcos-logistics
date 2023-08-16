@@ -5,5 +5,5 @@ export default {
 </script>
 
 <template>
-  <h1>fuck</h1>
+  <h1>1</h1>
 </template>
