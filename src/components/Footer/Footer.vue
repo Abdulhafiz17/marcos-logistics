@@ -12,6 +12,30 @@ export default {
         Copyright © <strong>Все права защищены</strong>
       </div>
     </div>
+    <div class="links">
+      <div class="social">
+        <a href="#">
+          <img src="../../assets/icons/facebook.svg" alt="facebook" />
+        </a>
+        <a href="#">
+          <img src="../../assets/icons/instagram.svg" alt="instagram" />
+        </a>
+        <a href="#">
+          <img src="../../assets/icons/telegram.svg" alt="telegram" />
+        </a>
+      </div>
+      <div class="routes">
+        <a href="#">Documentation</a>
+        |
+        <a href="#">About Us</a>
+        |
+        <a href="#">Pricing</a>
+        |
+        <a href="#">FAQ</a>
+        |
+        <a href="#">Support</a>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -23,10 +47,38 @@ export default {
   place-items: center;
   background-color: rgba(35, 38, 47, 1);
 
-  .copyright {
+  .info {
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+
+    img {
+      padding-bottom: 2rem;
+    }
+
+    .copyright {
+      color: white;
+    }
+  }
+
+  .links {
     color: white;
-    font-family: "Space Grotesk", sans-serif;
-    font-weight: 300;
+
+    .social {
+      padding-bottom: 2rem;
+      display: flex;
+      justify-content: end;
+      gap: 1rem;
+    }
+
+    .routes {
+      display: flex;
+      gap: 0.5rem;
+      font-family: "Poppins", sans-serif;
+
+      a {
+        color: white;
+      }
+    }
   }
 }
 </style>
