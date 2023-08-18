@@ -4,9 +4,10 @@ import NavHeader from "../../components/Header/NavHeader.vue";
 import Footer from "../../components/Footer/Footer.vue";
 import Header from "./Header.vue";
 import AboutUs from "./AboutUs.vue";
+import Questions from "./Questions.vue";
 export default {
   name: "Home",
-  components: { Header, AboutUs, Navbar, NavHeader, Footer },
+  components: { Header, AboutUs, Questions, Navbar, NavHeader, Footer },
 };
 </script>
 
@@ -15,5 +16,6 @@ export default {
   <NavHeader />
   <Header />
   <AboutUs />
+  <Questions />
   <Footer />
 </template>
