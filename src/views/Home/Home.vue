@@ -5,9 +5,18 @@ import Footer from "../../components/Footer/Footer.vue";
 import Header from "./Header.vue";
 import AboutUs from "./AboutUs.vue";
 import Questions from "./Questions.vue";
+import Contacts from "./Contacts.vue";
 export default {
   name: "Home",
-  components: { Header, AboutUs, Questions, Navbar, NavHeader, Footer },
+  components: {
+    Header,
+    AboutUs,
+    Questions,
+    Navbar,
+    NavHeader,
+    Footer,
+    Contacts,
+  },
 };
 </script>
 
@@ -17,5 +26,6 @@ export default {
   <Header />
   <AboutUs />
   <Questions />
+  <Contacts />
   <Footer />
 </template>
