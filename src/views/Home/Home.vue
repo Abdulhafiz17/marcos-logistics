@@ -18,7 +18,9 @@ export default {
     NavHeader,
     Footer,
     Contacts,
- , CardSlider, AboutCompany },
+    CardSlider,
+    AboutCompany,
+  },
 };
 </script>
 
@@ -26,5 +28,10 @@ export default {
   <Navbar />
   <NavHeader />
   <Header />
+  <AboutUs />
+  <CardSlider />
+  <Questions />
+  <AboutCompany />
+  <Contacts />
   <Footer />
 </template>
